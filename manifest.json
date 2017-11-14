@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Comic Sams",
+  "version": "0.1",
+  "description": "A bit of fun with Comic Sans font!",
+  "author": "Samiwel Thomas",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["comic-sams.js"]
+    }
+  ]
+}
